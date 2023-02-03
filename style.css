@@ -1,0 +1,117 @@
+body{
+	/*background*/
+	background-image:url("login/Chat/collections/hearts-g1a3bce452_1280.jpg");
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+	/*background-attachment:scroll;*/
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#wish{
+	color: rgba(37, 0, 85, 0.945);
+}
+#girl{
+	width:150px;
+	border-radius:50%;
+	border:6px solid #6fb6f8;
+}
+#name{
+	background-color:#6fb6f8;
+	/*background: url(image/name-tag.png);*/
+	padding:5px 10px;
+	border-radius:10%;
+	margin-top:0;
+}
+
+/*gift image*/
+.gift-img{
+	background-image: url("login/Chat/collections/gift-cover.jpg");
+	background-size:cover;
+	width:200px;
+	height:200px;
+	border:6px solid hsla(0, 0%, 0%, 0.658);
+	
+}
+
+
+#Friend:hover{
+	background-image: url("login/Chat/collections/friend.jpg");
+	width: 100px;
+	padding: 5% 5%;
+	background-position: center;
+}
+#bro:hover{
+	background-image: url("login/Chat/collections/bro.jpg");
+	width: 100px;
+	padding: 5% 5%;
+	background-position: center;
+}
+#sis:hover{
+	background-image: url("login/Chat/collections/sis.jpg");
+	width: 100px;
+	padding: 5% 5%;
+	background-position: center;
+}
+#mom:hover{
+	background-image: url("login/Chat/collections/family.jpg");
+	width: 100px;
+	padding: 5% 5%;
+	background-position: center;
+}
+#Friends:hover{
+	background-image: url("login/Chat/collections/friend-1.jpg");
+	width: 100px;
+	padding: 5% 5%;
+	background-position: center;
+}
+
+.container{
+	display: flex;
+	padding-bottom: 20px;
+}
+.col{
+	float: left;
+	width: 33%;
+    padding: 5px 3px;
+	
+}
+
+.gift-rig{
+	margin-left: 30%;
+}
+.gift-left{
+	margin-right: 30%;
+}
+
+#link{
+	background-image:url("image/gift-cover.jpg");
+	background-size:cover;
+	width:200px;
+	height:200px;
+	border:6px solid hsla(0, 0%, 0%, 0.658);
+}
+
+h2{
+	overflow-y: hidden;
+	color: rgb(0, 0, 0);
+	text-size-adjust: bold;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: underline overline solid #333;
+    letter-spacing: 3.5px;
+    font-weight: bolder;
+}
+.my{
+	background-image: url("login/Chat/collections/dance.gif");
+	background-size:cover;
+	width:200px;
+	height:200px;
+	border:6px solid hsla(0, 0%, 0%, 0.658);
+}
+
